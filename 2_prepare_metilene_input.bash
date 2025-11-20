@@ -29,19 +29,8 @@
 
 # --- User customization ---
 
-#COV_DIR="/path/to/bedgraph_coverage_5"
-#OUTPUT_DIR="/path/to/dmrs/metilene_input"
-
-#####
-export TMPDIR=$SCRATCHDIR
-# Load mamba
-module add mambaforge
-export CONDA_ENVS_PATH=/storage/pruhonice1-ibot/home/irissammarco/.conda/envs
-mamba activate tools
-COV_DIR="/storage/pruhonice1-ibot/home/irissammarco/trash"
-OUTPUT_DIR="/storage/pruhonice1-ibot/home/irissammarco/trash/metilene_input"
-#####
-
+COV_DIR="/path/to/bedgraph_coverage_5"
+OUTPUT_DIR="/path/to/dmrs/metilene_input"
 mkdir -p "${OUTPUT_DIR}/tmp_bed"
 
 # Define methylation contexts
