@@ -6,7 +6,7 @@
 #PBS -j oe
 
 # Author: Iris Sammarco
-# Date: 13/03/2025
+# Date: 03/2025
 #
 # Purpose:
 # Automate running metilene DMR calling on prepared unionbed input files and filtering results by q-value < 0.05
